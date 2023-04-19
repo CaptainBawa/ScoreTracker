@@ -63,8 +63,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[User_can_add_score]**
-- **[User_can_see_score_on_the_webpack]**
-- **[Scores_are_saved_in_local_storage]**
+- **[User_can_see_score_on_the_webpage]**
+- **[Scores_are_saved_and_displayed_from_api]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,6 +171,6 @@ I'm excited to be working on this project and I would be grateful for your suppo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/CaptainBawa/Leaderboard/blob/Leaderboard-setup/LICENSE) licensed.
+This project is [MIT](https://github.com/CaptainBawa/ScoreTracker/blob/Hit-the-api/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
