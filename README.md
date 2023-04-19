@@ -93,7 +93,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:CaptainBawa/Leaderboard.git
+  git clone git@github.com:CaptainBawa/ScoreTracker.git
 
 ```
 ### Install
@@ -153,7 +153,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/CaptainBawa/Leaderboard/issues).
+Feel free to check the [issues page](https://github.com/CaptainBawa/ScoreTracker/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
