@@ -3,9 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wbpack Exercise</title>
+    <script src="https://kit.fontawesome.com/d9a272ac0d.js" crossorigin="anonymous"></script>
+    <title>Leader Board Homepage</title>
   </head>
   <body>
-    <p>This is Webpack Starter!</p>
+    <header><h1>Leaderboard</h1></header>
+    <main>
+      <section class="display-score">
+        <h2 class="recent">Recent score <span><button>Refresh</button></span></h2>
+        <ul class="scores"></ul>
+      </section>
+      <section class="add-score">
+        <h2>Add your score</h2>
+        <form>
+          <input type="text" id="name" placeholder="Your name"><br>
+          <input type="text" id="score" placeholder="Your score"><br>
+          <input type="submit" id="button" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
