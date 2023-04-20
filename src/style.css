@@ -11,7 +11,6 @@
 body {
   background-color: rgba(218, 218, 218, 0.242);
   width: 100%;
-  height: auto;
 }
 
 /* The header element takes up 50% width, is centered, and has a margin on top and left */
@@ -22,6 +21,13 @@ header {
   height: auto;
   margin-left: 5%;
   font-size: 1.5em;
+  font-variant: small-caps;
+}
+
+header,
+h2,
+.refresh {
+  font-variant: small-caps;
 }
 
 /* The main element uses flexbox to align items in a row, with a 5% gap between them */
@@ -65,12 +71,14 @@ li {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  height: 94vh;
+  margin: 5% 0;
 }
 
 /* The display-score class takes up 40% width and has dynamic height */
 .display-score {
   width: 40%;
-  height: auto;
+  height: 100vh;
 }
 
 /* A form element is used to collect input */
@@ -82,19 +90,25 @@ form {
 /* The name and score fields have some padding */
 #name,
 #score {
-  padding: 2%;
+  padding: 5%;
+  box-shadow: 0px 0px 10px rgb(255, 2, 2);
+  border: none;
+}
+
+input:focus {
+  outline: none;
 }
 
 /* The scores element has a black border and dynamic width and height */
 .scores {
-  border: 2px solid black;
   width: 100%;
   height: auto;
   padding: 1%;
+  box-shadow: 0px 0px 10px rgb(255, 2, 2);
 }
 
 /* The button element with the id "button" has specific styling */
-#button {
+.button {
   height: 3vh;
   width: 40%;
   align-self: flex-end;
@@ -105,8 +119,30 @@ form {
 /* The footer element is positioned at the bottom of the page and has a gray background color */
 footer {
   background-color: gray;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
 }
+
+@keyframes moving {
+  0% {
+    transform: translate(0, 0)
+  }
+  50% {
+    transform: translate(-450px, 0)
+  }
+  100% {
+    transform: translate(-900px, 0)
+  }
+}
+
+.hover {
+  height: 3vh;
+  width: 40%;
+  align-self: flex-end;
+  box-shadow: 3px 4px;
+  cursor: pointer;
+  animation: moving 1s infinite linear;
+}
+
