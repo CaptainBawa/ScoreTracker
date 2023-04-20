@@ -9,7 +9,7 @@
 
 /* The background color is set to a translucent gray, with full width and dynamic height */
 body {
-  background-color: rgba(218, 218, 218, 0.242);
+  background-color: #ffd7007d;;
   width: 100%;
 }
 
@@ -108,12 +108,14 @@ input:focus {
 }
 
 /* The button element with the id "button" has specific styling */
-.button {
-  height: 3vh;
+.button,
+.hover {
+  height: auto;
   width: 40%;
   align-self: flex-end;
   box-shadow: 3px 4px;
   cursor: pointer;
+  padding: 3%;
 }
 
 /* The footer element is positioned at the bottom of the page and has a gray background color */
@@ -123,6 +125,12 @@ footer {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+footer h2 {
+  text-align: center;
+  color: #fff;
+  padding: 0.5%;
 }
 
 @keyframes moving {
@@ -138,11 +146,6 @@ footer {
 }
 
 .hover {
-  height: 3vh;
-  width: 40%;
-  align-self: flex-end;
-  box-shadow: 3px 4px;
-  cursor: pointer;
   animation: moving 1s infinite linear;
 }
 
