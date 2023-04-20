@@ -65,6 +65,7 @@
 - **[User_can_add_score]**
 - **[User_can_see_score_on_the_webpage]**
 - **[Scores_are_saved_and_displayed_from_api]**
+- **[Submit_button_moves_without_score_and_name_entry]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -143,9 +144,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Use_async_and_await_JavaScript_features_to_consume_the_API.]**
 - [ ] **[Add_more_styling]**
-- [ ] **[Make_JavaScript_code_asynchronous.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,6 +170,6 @@ I'm excited to be working on this project and I would be grateful for your suppo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/CaptainBawa/ScoreTracker/blob/Hit-the-api/LICENSE) licensed.
+This project is [MIT](https://github.com/CaptainBawa/ScoreTracker/blob/final-touches/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

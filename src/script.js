@@ -29,7 +29,7 @@ form.addEventListener('submit', async (event) => {
   await display();
 });
 
-const button = document.querySelector('#button');
+const button = document.querySelector('.button');
 button.addEventListener('click', display);
 
 const refreshBtn = document.querySelector('.refresh');
@@ -37,3 +37,20 @@ const refreshBtn = document.querySelector('.refresh');
 refreshBtn.addEventListener('click', async () => {
   await display();
 });
+
+/*
+ This function adds a hover class to a button element if all input fields are empty when the mouse
+ enters the button, and removes the class when the mouse leaves the button. */
+const movingButton = () => {
+  button.addEventListener('mouseenter', () => {
+    const inputFields = document.querySelectorAll('input');
+    const allInputsEmpty = Array.from(inputFields).every((input) => input.value === '');
+    if (allInputsEmpty) {
+      button.classList.add('hover');
+    }
+  });
+  button.addEventListener('mouseleave', () => {
+    button.classList.remove('hover');
+  });
+};
+movingButton();
