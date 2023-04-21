@@ -9,7 +9,7 @@
 
 /* The background color is set to a translucent gray, with full width and dynamic height */
 body {
-  background-color: #ffd7007d;;
+  background-color: #ffd7007d;
   width: 100%;
 }
 
@@ -103,7 +103,7 @@ input:focus {
   width: 100%;
   height: auto;
   padding: 1%;
-  box-shadow: 0px 0px 10px rgb(255, 2, 2);
+  box-shadow: 0 0 10px rgb(255, 2, 2);
 }
 
 /* The button element with the id "button" has specific styling */
@@ -123,7 +123,7 @@ input:focus {
 .hover,
 .recent button {
   border: none;
-  box-shadow: 0px 0px 10px rgb(255, 2, 2);
+  box-shadow: 0 0 10px rgb(255, 2, 2);
 }
 
 /* The footer element is positioned at the bottom of the page and has a gray background color */
@@ -143,17 +143,18 @@ footer h2 {
 
 @keyframes moving {
   0% {
-    transform: translate(0, 0)
+    transform: translate(0, 0);
   }
+
   50% {
-    transform: translate(-450px, 0)
+    transform: translate(-450px, 0);
   }
+
   100% {
-    transform: translate(-900px, 0)
+    transform: translate(-900px, 0);
   }
 }
 
 .hover {
   animation: moving 1s infinite linear;
 }
-
