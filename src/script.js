@@ -49,7 +49,7 @@ const movingButton = () => {
       button.classList.add('hover');
     }
   });
-  button.addEventListener('mouseleave', () => {
+  button.addEventListener('mouseleave', async () => {
     button.classList.remove('hover');
   });
 };
