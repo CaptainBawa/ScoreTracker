@@ -72,7 +72,7 @@
 
 ## 🚀 Code Documentation <a name="doc"></a>
 
-Feel free to read the [documentation](https://github.com/CaptainBawa/ScoreTracker/issues) if you really want to understand the code.
+Feel free to read the [documentation](https://github.com/CaptainBawa/ScoreTracker/blob/development/DOCUMENTATION.md) if you really want to understand the code.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
