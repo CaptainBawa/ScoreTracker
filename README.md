@@ -70,7 +70,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Code Documentation <a name="doc"></a>
+## 🔭 Code Documentation <a name="doc"></a>
 
 Feel free to read the [documentation](https://github.com/CaptainBawa/ScoreTracker/blob/development/DOCUMENTATION.md) if you really want to understand the code.
 
