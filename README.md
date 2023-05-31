@@ -6,13 +6,13 @@
 
 </div>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🔭 Code Documentation](#documentation)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -25,6 +25,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 # 📖 [ScoreTracker] <a name="about-project"></a>
@@ -56,18 +57,22 @@
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://github.com/">GitHub</a></li>
+    <li><a href="https://us-central1-js-capstone-backend.cloudfunctions.net/api">Involvement API</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[User_can_add_score]**
-- **[User_can_see_score_on_the_webpage]**
-- **[Scores_are_saved_and_displayed_from_api]**
-- **[Submit_button_moves_without_score_and_name_entry]**
+- **Add score**
+- **See score**
+- **API integration**
+- **Submit button moves without score and name entry**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Code Documentation <a name="doc"></a>
+
+Feel free to read the [documentation](https://github.com/CaptainBawa/ScoreTracker/issues) if you really want to understand the code.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -84,8 +89,10 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 ```sh
-  Any code editor [vscode preferred].
-  Any browser [chrome preferred].
+  git version 2.38.x
+  node.js version > 12.x
+  IDE
+  Browser (chrome, firefox, edge, safari)
 ```
 
 ### Setup
@@ -102,6 +109,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
+  cd ScoreTracker
   nmp install/npm i
 ```
 
@@ -127,7 +135,7 @@ To run tests, run the following command:
 You can deploy this project using:
 
 ```
-   Github Pages: https://pages.github.com/
+  Github Pages: https://pages.github.com/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,13 +146,13 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/CaptainBawa)
 - Twitter: [@twitterhandle](https://twitter.com/BawaCollins)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/captainbawa/)
+- LinkedIn: [@captainbawa](https://www.linkedin.com/in/captainbawa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add_more_styling]**
+- [ ] **Add styles**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,9 +172,11 @@ I'm excited to be working on this project and I would be grateful for your suppo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I want to express my deep appreciation to the Microverse full-stack curriculum for their constant inspiration and invaluable guidance during this journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
