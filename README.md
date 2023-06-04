@@ -28,14 +28,13 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [ScoreTracker] <a name="about-project"></a>
+# 📖 ScoreTracker <a name="about-project"></a>
 
-**[ScoreTracker]** is a webpage to showcase rankings and achievements in a game, competition, or any other context where scoring and ranking are important. In this project, I created using HTML, CSS, JavaScript, API, and Webpack to create a dynamic leaderboard that retrieves data from an external API and displays it in a visually appealing way.
+**Score Tracker** is a webpage to showcase rankings and achievements in a game, competition, or any other context where scoring and ranking are important. In this project, I created using HTML, CSS, JavaScript, API, and Webpack to create a dynamic leaderboard that retrieves data from an external API and displays it in a visually appealing way.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>Client</summary>
@@ -112,15 +111,13 @@ Install this project with:
   cd ScoreTracker
   nmp install/npm i
 ```
-
 ### Usage
 
 To run the project, execute the following command:
 
 ```sh
-  Live Server
+  npm start
 ```
-
 ### Run tests
 
 To run tests, run the following command:
@@ -134,7 +131,7 @@ To run tests, run the following command:
 
 You can deploy this project using:
 
-```
+```sh
   Github Pages: https://pages.github.com/
 ```
 
